@@ -4,7 +4,7 @@ const createNotes = async() => {
     
 
        const response =await axios({
-           url: "http://127.0.0.1:4400",
+           url: "https://note-making-application.herokuapp.com/",
            method:"POST",
            data: {
                notes:notesText,
